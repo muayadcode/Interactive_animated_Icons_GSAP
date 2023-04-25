@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+body {
+  background-color: aquamarine;
+}
+
+svg:hover {
+  cursor: pointer;
+  background-color: rgb(124, 155, 255);
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: -15px;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  position: fixed;
+  height: 15px;
+  border: 5px solid rgb(104, 104, 135);
+  background-color: rgb(15, 6, 27);
+  opacity: 0.8;
+
+}
+
+
+
+
+h2 {
+  margin-top: 100px;
+  font-family: 'Lucida Sans';
+  text-transform: uppercase;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+.emojis-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 3rem;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+p {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(188, 183, 253);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-top: 20px;
+  text-shadow: 1px 2px black;
+}
+
+.emoji {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+}
+
+.interest {
+
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+svg {
+  background-color: rgb(85, 130, 197);
+  border-radius: 10px;
+}
+
+#emoji-1:hover {
+  cursor: pointer;
+}
+
+.combine {
+
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+
+
+}
+
+#emoji-9 {
+  background-color: rgb(255, 193, 106);
+}
+
+#emoji-10 {
+  background-color: rgb(102, 169, 138);
+}
+
+#emoji-11 {
+  background-color: rgb(64, 109, 255);
+}
+
+#emoji-12 {
+  background-color: rgb(213, 171, 171);
+}
+
+#int {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 768px) {
+
+  .emojis-container {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .emoji {
+    width: 400px;
+    height: 400px;
+  }
+
+  .interest {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .combine {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

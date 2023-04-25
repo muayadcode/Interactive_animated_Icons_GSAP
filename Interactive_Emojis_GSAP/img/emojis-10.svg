@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#a4d285"/>
+  <polygon points="115.26 66 115.26 180.63 53.85 138.7 53.85 106.5 115.26 66" fill="#a4d285" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <rect x="34.74" y="104.89" width="19.11" height="35.48" rx="4" ry="4" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="70.15" y1="95.75" x2="70.15" y2="150.61" fill="#a4d285" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <g id="sound" opacity="0">
+    <path d="m165.17,160.6c2.38-2.57,18.19-20.18,14.67-44.26-1.83-12.58-8.13-21.33-11.62-25.5" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="m146.1,142.27c1.29-1.39,9.85-10.93,7.95-23.97-.99-6.81-4.4-11.55-6.29-13.81" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="m194.78,174.82c3.33-3.59,25.42-28.2,20.51-61.86-2.56-17.58-11.36-29.82-16.24-35.64" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
